@@ -250,6 +250,8 @@ footer h1 {
   -moz-box-shadow: 0 0 1px rgba(0,0,0,0.20);
   box-shadow: 0 0 1px rgba(0,0,0,0.20);
   z-index: 15;
+  direction: rtl;
+  line-height: 25px;
 }
 
 .direction-l .desc,
@@ -369,7 +371,7 @@ footer h1 {
     position: relative;
     width: 380px;
     float: right;
-    text-align: left;
+    text-align: justify;
   }
 }
 
